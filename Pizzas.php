@@ -1,7 +1,7 @@
 <?php require ('./layout/menu.php') ?>
 
 <div class="Portada">
-  <img src="img/PortadaEntradas.jpg" alt="" class="FotoPortada">
+  <img src="img/Pizzas.png" alt="" class="FotoPortada">
   <h1 class="TextoPortada">Pizzas</h1>
 </div>
 

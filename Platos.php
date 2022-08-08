@@ -1,13 +1,13 @@
 <?php require ('./layout/menu.php') ?>
 
 <div class="Portada">
-  <img src="" alt="" class="FotoPortada">
-  <h1 class="TextoPortada">Postres</h1>
+  <img src="img/Platos.png" alt="" class="FotoPortada">
+  <h1 class="TextoPortada">Platos</h1>
 </div>
 
 <div class="Carta">
 <ul class="Lista">
-  <li class="ItemsLista">Chocotorta</li>
+  <li class="ItemsLista">Lomo</li>
 </ul>
 </div>
 
