@@ -44,12 +44,12 @@
   
   .nav-menu {
     display: flex;
-    margin-right: 20px;
+    margin-right: 5px;
     list-style: none;
   }
   
   .nav-menu-item {
-    font-size: 18px;
+    font-size: 15px;
     margin: 20px 10px;
     text-transform: uppercase;
     width: max-content;

@@ -32,6 +32,9 @@
                     <a href="Platos.php" class="nav-menu-link nav-link">Platos principales</a>
                     </li>
                     <li class="nav-menu-item">
+                    <a href="Pizzas.php" class="nav-menu-link nav-link">Pizzas</a>
+                    </li>
+                    <li class="nav-menu-item">
                     <a href="Bebidas.php" class="nav-menu-link nav-link">Bebidas</a>
                     </li>
                     <li class="nav-menu-item">
@@ -47,5 +50,5 @@
             </header>
             <!-- Fin contenedor de la barra de navegación -->
             
-            <video source src="img/videoFondo.mp4" type="video/mp4" autoplay muted loop></video>
+            <video source src="img/videoFondo.mp4" type="video/mp4"  muted loop></video>
 <?php ?>
