@@ -16,7 +16,7 @@
   <li class="ItemsLista">Aros de cebolla</li>
   <li class="ItemsLista">bastones de muzzarella</li>
   <li class="ItemsLista">bastones de pollo</li>
-  <li class="ItemsLista">ravioles con verdeo</li>
+  <li class="ItemsLista">ravioles con verde</li>
 </ul>
 </div>
 
