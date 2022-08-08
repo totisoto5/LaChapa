@@ -50,5 +50,5 @@
             </header>
             <!-- Fin contenedor de la barra de navegación -->
             
-            <video source src="img/videoFondo.mp4" type="video/mp4"  muted loop></video>
+            <video source src="img/videoFondo.mp4" type="video/mp4" autoplay muted loop></video>
 <?php ?>

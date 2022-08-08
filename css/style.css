@@ -91,6 +91,10 @@
       padding: 0 20px;
       line-height: 60px;
     }
+
+    .Carta{
+      max-height: 60vh;
+      }
   
     .nav-menu {
       flex-direction: column;

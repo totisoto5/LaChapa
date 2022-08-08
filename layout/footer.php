@@ -1,11 +1,11 @@
 <?php ?>    
 
+
 </div>
-    
+
 <footer id="Pie">
     <a>by: @totisotok</a>
 </footer>
-
 
 
     <script src="js/script.js"></script>
