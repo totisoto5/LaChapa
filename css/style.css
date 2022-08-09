@@ -236,6 +236,7 @@ video{
   width: 100%;
   text-align: center;
   color: white;
-  font-family: 'Courier New', Courier, monospace, cursive;
+  font-family: lobster;
   font-size: 300%;
+  text-shadow: -2px 2px 0 black;
 }

@@ -6,9 +6,9 @@
 </div>
 
 <div class="Carta">
-<ul class="Lista">
-  <li class="ItemsLista">Cerveza</li>
-</ul>
+  <ul class="Lista">
+    <li class="ItemsLista">Cerveza</li>
+  </ul>
 </div>
 
 

@@ -11,12 +11,13 @@
   <ul class="Lista">
     <li class="ItemsLista">Clásicas</li>
     <li class="ItemsLista">Con salsa de verdeo</li>
+    <li class="ItemsLista">Con salsa de cheddar</li>
   </ul>
   <li class="ItemsLista">Rabas</li>
   <li class="ItemsLista">Aros de cebolla</li>
   <li class="ItemsLista">bastones de muzzarella</li>
   <li class="ItemsLista">bastones de pollo</li>
-  <li class="ItemsLista">ravioles con verdeo</li>
+  <li class="ItemsLista">ravioles fritos con verdeo</li>
 </ul>
 </div>
 
