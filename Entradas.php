@@ -1,4 +1,4 @@
-<?php require ('./layout/menu.php') ?>
+<?php require ('layout/menu.php') ?>
 
 <div class="Portada">
   <img src="img/PortadaEntradas.jpg" alt="" class="FotoPortada">
@@ -23,4 +23,4 @@
 
 
 
-<?php require ('./layout/footer.php') ?>
+<?php require ('layout/footer.php') ?>
