@@ -240,3 +240,45 @@ video{
   font-size: 300%;
   text-shadow: -2px 2px 0 black;
 }
+
+.Formulario {
+	background-color: rgba(0, 0, 0, 0.562);
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 20vh;
+}
+
+.Formulario input {
+  background-color: rgba(0, 0, 0, 0.562);
+	width: 100%;
+  color:white;
+  padding: 10px;
+  font-size: 15px;
+  font-family: optima;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: #444;
+}
+
+form{
+  margin-top: 25vh;
+  margin-left: 15%;
+  width: 70%;
+}
+
+input {
+  background-color: rgba(0, 0, 0, 0.562);
+	width: 100%;
+  color:white;
+  padding: 10px;
+  font-size: 15px;
+  font-family: optima;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+
