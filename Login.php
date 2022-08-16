@@ -25,7 +25,7 @@
                 </button>
                 <ul class="nav-menu">
                     <li class="nav-menu-item">
-                    <a href="index.php" class="nav-menu-link nav-link">Cancelar</a>
+                    <a href="https://www.instagram.com/lachapa.dx/" target="_blank" class="nav-menu-link nav-link">Nosotros</a>
                     </li>
                     <li class="nav-menu-item">
                     <a href="Login.php" class="nav-menu-link nav-link nav-menu-link_active">Login</a>

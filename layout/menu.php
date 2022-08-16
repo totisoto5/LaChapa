@@ -1,4 +1,12 @@
-<?php ?>
+<?php 
+
+session_start();
+
+if (empty($_SESSION["Id"])){
+    header ("location: Login.php");
+}
+
+?>
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -41,7 +49,7 @@
                     <a href="Postres.php" class="nav-menu-link nav-link">Postres</a>
                     </li>
                     <li class="nav-menu-item">
-                    <a href="Login.php" class="nav-menu-link nav-link nav-menu-link_active">Login</a>
+                    <a href="Controladores/Controlador_Logout.php" class="nav-menu-link nav-link nav-menu-link_active">Salir (<?php echo $_SESSION["Nombre"];?>)</a>
                     </li>
                 </ul>
                 </nav>

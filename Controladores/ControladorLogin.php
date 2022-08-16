@@ -1,6 +1,6 @@
 <?php
 
-
+session_start();
 
 if (!empty($_POST["IniciarSesion"])) {
 
@@ -18,7 +18,9 @@ if (!empty($_POST["IniciarSesion"])) {
             $resultado = mysqli_query($conexion,$query);
 
             if (!empty($Datos = $resultado->fetch_array())){
-                /* LLamar al index.php*/
+                $_SESSION["Id"] = $Datos[0];
+                $_SESSION["Nombre"] = $Datos[1];
+                header("location: index.php");
             }else{
                 echo "<div align='center' class='alert alert-danger'>Usuario o contraseña incorrecto</div>";
             }
