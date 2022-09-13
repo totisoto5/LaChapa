@@ -1,12 +1,4 @@
-<?php 
 
-session_start();
-
-if (empty($_SESSION["Id"])){
-    header ("location: Login.php");
-}
-
-?>
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -23,10 +15,8 @@ if (empty($_SESSION["Id"])){
       
     <body>
 
-        <div class="Contenedor">
-
-            <!-- Contenedor de la barra de navegación -->
-            <header class="header">
+     <!-- Contenedor de la barra de navegación -->
+     <header class="header">
                 <nav class="nav">
                 <a href="index.php" class="logo nav-link"><img Id="Logo" src="img/logo.jpg" alt="logo"></a>
                 <button class="nav-toggle" aria-label="Abrir menú">
@@ -49,12 +39,19 @@ if (empty($_SESSION["Id"])){
                     <a href="Postres.php" class="nav-menu-link nav-link">Postres</a>
                     </li>
                     <li class="nav-menu-item">
-                    <a href="Controladores/Controlador_Logout.php" class="nav-menu-link nav-link nav-menu-link_active">Salir (<?php echo $_SESSION["Nombre"];?>)</a>
+                    <a href="Combos.php" class="nav-menu-link nav-link">Combos</a>
+                    </li>
+                    <li class="nav-menu-item">
+                    <a href="#" class="nav-menu-link nav-link nav-menu-link_active">Editar</a>
                     </li>
                 </ul>
                 </nav>
             </header>
-            <!-- Fin contenedor de la barra de navegación -->
+            <!-- Fin contenedor de la barra de navegación -->    
+    
+    <div class="Contenedor">
+
+           
             
             <video source src="img/videoFondo.mp4" type="video/mp4" autoplay muted loop></video>
 <?php ?>

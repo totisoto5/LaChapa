@@ -28,7 +28,7 @@
                     <a href="https://www.instagram.com/lachapa.dx/" target="_blank" class="nav-menu-link nav-link">Nosotros</a>
                     </li>
                     <li class="nav-menu-item">
-                    <a href="Login.php" class="nav-menu-link nav-link nav-menu-link_active">Login</a>
+                    <a href="Registro.php" class="nav-menu-link nav-link nav-menu-link_active">Sign up</a>
                     </li>
                 </ul>
                 </nav>
@@ -42,11 +42,11 @@
             <div class="login">
 		        <div class="login-screen">
                     <div class="app-title">
-                        <h1>Iniciar sesión</h1>
+                        <h1>Crear cuenta</h1>
                     </div>
 
                     <?php
-                    include"Controladores/ControladorLogin.php";
+                    include"Controladores/Controlador_Registro.php";
                     ?>
 
 			        <form method="post" class="login-form">
@@ -56,13 +56,17 @@
                         </div>
 
                         <div class="control-group">
-                            <input name="Contraseña" type="password" class="login-field" placeholder="Contraseña" id="login-pass">
+                            <input name="Contraseña1" type="password" class="login-field" placeholder="Contraseña" id="login-pass">
                             <label class="login-field-icon fui-lock" for="login-pass"></label>
                         </div>
-                        
 
-                        <input class="btn btn-primary btn-large btn-block" type="submit" name="IniciarSesion" value="Iniciar sesión"></input>
-                        <a class="login-link" href="Registro.php">¿No tenes cuenta? Create una</a>
+                        <div class="control-group">
+                            <input name="Contraseña2" type="password" class="login-field" placeholder="Repetir contraseña" id="login-pass">
+                            <label class="login-field-icon fui-lock" for="login-pass"></label>
+                        </div>
+
+                        <input class="btn btn-primary btn-large btn-block" type="submit" name="CrearCuenta" value="Crear Cuenta"></input>
+                        <a class="login-link" href="Login.php">¿Ya tenes cuenta? Inicia sesión</a>
                     </form>
                 </div>
             </div>

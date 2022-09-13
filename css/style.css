@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;700&display=swap');
+
+
+*{
+  box-sizing: border-box;
+}
+
+
 .Contenedor {
     padding-top: 80px;
     padding-bottom: 50px;
     width: 100%;
     max-height: calc(100vh - 120 px);
-    overflow-y: scroll;
 }
 
 #Logo {
@@ -27,7 +34,7 @@
     display: flex;
     justify-content: space-between;
     height: 80px;
-    max-width: 992px;
+    max-width: 980px;
     margin: 0 auto;
     z-index: 3;
   }
@@ -79,7 +86,7 @@
     display: none;
   }
   
-  
+/*Fin estilos de la barra de navegacion*/
 
 
 .Redes {
@@ -142,14 +149,14 @@ video{
 
   .Carta ul {
     list-style: none;
-    margin: 10px;
+    margin: 20px 30px;
     padding: 0;
   }
 
   .Carta ul li {
   padding: 10px;
   font-size: 15px;
-  font-family: optima;
+  font-family: 'Be Vietnam Pro', sans-serif;
   text-transform: uppercase;
   color: aliceblue;
   border-bottom: 1px dashed #423e3e;
@@ -179,7 +186,7 @@ video{
   width: 100%;
   text-align: center;
   color: white;
-  font-family: lobster;
+  font-family: 'Be Vietnam Pro', sans-serif;
   font-size: 300%;
   text-shadow: -2px 2px 0 black;
 }
@@ -265,11 +272,12 @@ video{
 /*              Fin Formulario              */
 
 /*                                     MOBILE                             */
-@media (max-width: 890px) {
+@media (max-width: 980px) {
 
   .login {
     margin-left: 20%;
     width: 60%;
+    height: 50vh;
     }
 
   .Portada{
@@ -288,6 +296,7 @@ video{
     font-size: 25px;
     padding: 0 20px;
     line-height: 60px;
+    
   }
 
   .Carta{
